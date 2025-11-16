@@ -1,0 +1,26 @@
+:root {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+
+  --bg-neutral-1: rgba(0, 0, 0);
+  --bg-neutral-2: rgba(245, 246, 247);
+  --bg-accent-1: rgba(112, 0, 255);
+  --bg-accent-2: rgba(255, 63, 161);
+  --text-primary: rgba(255, 255, 255);
+  --text-secondary: rgba(102, 102, 102);
+
+  background-color: var(--bg-neutral-1);
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: var(--text-primary);
+
+}
+
